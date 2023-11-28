@@ -18,3 +18,6 @@ VALUES
 (1, 'João Carlos', 'Jcarlos@gmail.com', 'Rua 13 de maio'),
 (2, 'José Vitor', 'Jvitor@gmail.com', 'Rua da Saudade'),
 (3, 'Paulo André', 'Pandr@gmail.com', 'Rua do Sol');
+
+-- Visualizar a tabela pronta
+SELECT * FROM ALUNO;
