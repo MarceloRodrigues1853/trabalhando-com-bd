@@ -1,48 +1,57 @@
-# Passos para Criar o Banco de Dados e a Tabela:
+# instruções
 
-Conectar ao Servidor MySQL:
+ 1. crie uma tabela chamada ALUNO;  
+ 2. defina os atributos da tabela;
+ 3. adicione a chave primária de nome ID (identificador);
+ 4. adicione um atributo nome do tipo varchar;
+ 5. adicione um atributo e-mail do tipo varchar;
+ 6. adicione um atributo endereço do tipo varchar.
 
-Abra o MySQL Workbench e conecte-se ao servidor MySQL.
-Criar o Banco de Dados ESCOLA:
+ Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
 
-Execute o seguinte comando SQL para criar o banco de dados ESCOLA:
+# Passos para Criar o Banco de Dados e a Tabela
 
-sql
-Copy code
-CREATE DATABASE IF NOT EXISTS ESCOLA;
-Usar o Banco de Dados ESCOLA:
+1. ## Conectar ao Servidor MySQL
 
-Execute o seguinte comando para selecionar o banco de dados ESCOLA para uso:
+- Abra o MySQL Workbench e conecte-se ao servidor MySQL.
+  
+2. ## Criar o Banco de Dados ESCOLA
 
-sql
-Copy code
-USE ESCOLA;
-Criar a Tabela ALUNO:
+- Execute o seguinte comando SQL para criar o banco de dados ESCOLA
 
-Execute o seguinte comando para criar a tabela ALUNO:
+``CREATE DATABASE IF NOT EXISTS ESCOLA;``
 
-sql
-Copy code
-CREATE TABLE IF NOT EXISTS ALUNO (
+3. ## Usar o Banco de Dados ESCOLA
+
+- Execute o seguinte comando para selecionar o banco de dados ESCOLA para uso:
+
+``USE ESCOLA;``
+
+4. ## Criar a Tabela ALUNO
+
+- Execute o seguinte comando para criar a tabela ALUNO:
+  
+`CREATE TABLE IF NOT EXISTS ALUNO (
   ID INT PRIMARY KEY,
   nome VARCHAR(255),
   email VARCHAR(255),
   endereco VARCHAR(255)
-);
-Este comando cria a tabela ALUNO com os atributos especificados.
+);`
 
-Verificar a Criação da Tabela:
+- Este comando cria a tabela ALUNO com os atributos especificados.
 
-Você pode verificar se a tabela foi criada com sucesso usando o seguinte comando:
+1. ## Verificar a Criação da Tabela
 
-sql
-Copy code
-SHOW TABLES;
-Isso deve exibir a tabela ALUNO na lista.
+- Você pode verificar se a tabela foi criada com sucesso usando o seguinte comando:
 
-Encerrar a Sessão:
+  ``SHOW TABLES;``
 
-Ao finalizar os comandos, você pode desconectar-se do servidor MySQL no MySQL Workbench.
-Salvar no GitHub:
+- Isso deve exibir a tabela ALUNO na lista.
 
-Você pode salvar esses comandos em um arquivo SQL e, se desejar, carregá-lo em um repositório do GitHub. O MySQL Workbench também possui a opção de exportar um modelo físico ou script SQL.
+6. ## Encerrar a Sessão
+
+- Ao finalizar os comandos, você pode desconectar-se do servidor MySQL no MySQL Workbench.
+
+7. ## Salvar no GitHub
+
+- Você pode salvar esses comandos em um arquivo SQL e, se desejar, carregá-lo em um repositório do GitHub. O MySQL Workbench também possui a opção de exportar um modelo físico ou script SQL.
