@@ -16,6 +16,7 @@ Este é um projeto simples para criar um banco de dados ESCOLA com uma tabela AL
    - Conecte-se ao seu servidor MySQL.
    - Abra o script SQL (`escola_aluno.sql`) no MySQL Workbench.
    - Execute o script para criar o banco de dados e a tabela.
+   - Mais informções no arquvio ``instruoes.md`` nos arquivos acima ⬆
 
 ## Contribuição
 
