@@ -10,12 +10,11 @@ CREATE TABLE ALUNO (
     Nome VARCHAR(255),
     Email VARCHAR(255),
     Endereco VARCHAR(255),
-    Telefone VARCHAR(15)
 );
 
 -- Inserção de dados na tabela ALUNO
-INSERT INTO ALUNO (ID, Nome, Email, Endereco, Telefone)
+INSERT INTO ALUNO (ID, Nome, Email, Endereco,)
 VALUES
-(1, 'João Carlos', 'Jcarlos@gmail.com', 'Rua 13 de maio', '(11)7825-4489'),
-(2, 'José Vitor', 'Jvitor@gmail.com', 'Rua da Saudade', '(11)7825-6589'),
-(3, 'Paulo André', 'Pandr@gmail.com', 'Rua do Sol', '(11)7825-4495');
+(1, 'João Carlos', 'Jcarlos@gmail.com', 'Rua 13 de maio'),
+(2, 'José Vitor', 'Jvitor@gmail.com', 'Rua da Saudade'),
+(3, 'Paulo André', 'Pandr@gmail.com', 'Rua do Sol');
