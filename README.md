@@ -1,6 +1,4 @@
-# escola-aluno-db
-
-# Projeto ESCOLA
+# Projeto Trabalhando com Banco de Dados
 
 Este é um projeto simples para criar um banco de dados ESCOLA com uma tabela ALUNO usando MySQL.
 
@@ -8,13 +6,13 @@ Este é um projeto simples para criar um banco de dados ESCOLA com uma tabela AL
 
 1. Clone o repositório para o seu computador:
 
-   ```bash git clone https://github.com/MarceloRodrigues1853/escola-aluno-db.git```
+   ```[bash git clone https://github.com/MarceloRodrigues1853/escola-aluno-db.git](https://github.com/MarceloRodrigues1853/trabalhando-com-db.git)```
 
 2. Importe o script SQL no MySQL Workbench:
 
    - Abra o MySQL Workbench.
    - Conecte-se ao seu servidor MySQL.
-   - Abra o script SQL (`escola_aluno.sql`) no MySQL Workbench.
+   - Abra o script SQL, no MySQL Workbench.
    - Execute o script para criar o banco de dados e a tabela.
    - Mais informções no arquvio ``instruoes.md`` nos arquivos acima ⬆
 
