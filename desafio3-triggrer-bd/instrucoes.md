@@ -8,7 +8,7 @@
 
 - Em seguida, execute um trigger que se relacione com algum comando, como insert, select, delete ou update.
 
-Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.
+Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto para que outros desenvolvedores possam analisá-lo.
 
 ## Banco de Dados com Trigger
 
