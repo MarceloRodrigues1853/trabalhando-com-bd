@@ -14,7 +14,7 @@ Este é um projeto simples para criar um banco de dados ,realizando desafios da 
    - Conecte-se ao seu servidor MySQL.
    - Abra o script SQL, no MySQL Workbench.
    - Execute o script para criar o banco de dados e a tabela.
-   - Mais informções no arquvio ``instruoes.md`` nos arquivos acima ⬆
+   - Mais informções nas ``pastas 📁``  arquivos acima ⬆
 
 ## Contribuição
 
