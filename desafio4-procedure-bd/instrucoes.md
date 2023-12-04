@@ -14,7 +14,7 @@ Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilh
 
 Este projeto consiste na criação de uma procedure em SQL para atender à necessidade da empresa de realizar um levantamento diário da quantidade de produtos comprados.
 
-## Estrutura do Banco de Dados**
+## Estrutura do Banco de Dados
 
 O banco de dados Vendas foi criado com as seguintes tabelas:
 
