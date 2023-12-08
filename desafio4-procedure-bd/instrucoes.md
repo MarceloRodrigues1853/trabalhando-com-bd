@@ -32,7 +32,7 @@ Atributos:**
 `Procedure LevantamentoDiario`
 Foi criada uma procedure chamada `LevantamentoDiario` que, ao receber uma `data` como `parâmetro`, realiza a contagem da quantidade de produtos comprados naquele dia.
 
-````
+````sql
 -- Delimitador necessário para definir o bloco da procedure
 DELIMITER //
 
